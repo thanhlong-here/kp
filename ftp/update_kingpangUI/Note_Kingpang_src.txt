@@ -1,0 +1,13 @@
+24/8/2021
+Note KingPang 
+Issue 1: Make rounded image in Popular in Homepage
+- add rerounded class (/theme/app.css)
+- add class to (/views/components/home/popular.blade)
+Issue 2: The distance between image and content in review-section HomePage
+- /views/components/home/review.blade
+Issue 3: Align Banner Header with search bar 
+- add class p-0 to banner-header /views/components/home/slide.blade
+Issue 4: Increase margin-top for content-header, marketplce icons & menubar categories  
+- add content-header (/theme/app.css)
+- add mt-1 (/view/components/home/marketplace)
+- add nav-item-p (/view/components/home/categories)

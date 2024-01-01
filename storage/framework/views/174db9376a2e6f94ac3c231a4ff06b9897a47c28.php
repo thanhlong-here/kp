@@ -1,0 +1,2 @@
+<?php echo $__env->make('page.product.inc.list',['products'=>$recommend->get(),'col' => 2], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH D:\www\kp\resources\views/page/product/detail/tab-recommendations.blade.php ENDPATH**/ ?>

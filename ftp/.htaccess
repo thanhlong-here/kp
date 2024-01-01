@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{SERVER_PORT} 80
+    RewriteRule ^(.*)$ https://www.kingpang.vn/$1 [R,L]
+    
+    RewriteCond %{REQUEST_URI} !^public
+    RewriteRule ^(.*)$ public/$1 [L]
+    php_value post_max_size 15M
+    php_value upload_max_filesize 15M
+    php_value upload_tmp_dir /home/app/web/kingpang.vn/public_html/public/media
+
+
+</IfModule>
+
+
